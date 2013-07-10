@@ -32,7 +32,6 @@ public class Order implements Serializable {
     /* The id uses the generated OID (UUID) from Mongo. */
     @Id
     @GeneratedValue
-   // @Field(name="_id")
     private String id;
     /* Optimistic locking is supported. */
     @Version

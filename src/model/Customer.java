@@ -31,7 +31,6 @@ public class Customer implements Serializable {
     /* The id uses the generated OID (UUID). */
     @Id
     @GeneratedValue
- //   @Field(name="_id")
     private String id;
     
     @Basic
